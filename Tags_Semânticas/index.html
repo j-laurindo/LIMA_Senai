@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Atividade - HTML Semântico</title>
+</head>
+<body style="font-family: Raleway; margin-bottom: 20px; padding: 15px">
+    <header style="display: flex; justify-content: center; padding: 20px; background-color: #8C271E; border-radius: 10px; color: white;">
+        <!-- Cabeçalho da página -->
+        <h1>Xô Dengue! - Página de informações básicas sobre a Dengue</h1>
+        <nav>
+            <!-- Links para principais tópicos/informações da doença-->
+            <ul>
+                <li><a href="https://www.gov.br/saude-recebe-mais-529-mil-doses-de-vacinas-covid-19-da-pfizer/pt-br/assuntos/saude-de-a-a-z/d/dengue" style="color:white">Ministério da Saúde</a></li>
+                <li><a href="https://www.paho.org/pt/topicos/dengue" style="color:white">Organização Pan-Americana de Saúde</a></li>
+                <li><a href="https://www.google.com/search?sca_esv=723d1d54676e1e8d&rlz=1C1UEAD_enBR1140BR1140&sxsrf=AE3TifNO7m50AQhPJGZ0iR0qnq_T2bZFcQ:1748297692982&q=dengue&tbm=nws&source=lnms&fbs=AIIjpHxX5k-tONtMCu8aDeA7E5WMdDwGSuc8eBkl8hX51y2q67wchyM0b9808o1ULE6sPkQ8myfN4OQm1M9WkEQ-djvv7VtE81NVEDyzMEuaUVanaYeDC-FI7oLUr6DIA2HdjAYqFr4DD5S7JKfUuuf9UQCVpwNZVNIgEMz6xjvza6xDdVvY4ffmvAOLijAUk3K93jzfVVfu2VZ3ktSApMJrLLp_k9mErA&sa=X&ved=2ahUKEwi-sc63lMKNAxXCp5UCHRU4OGYQ0pQJegQIExAB&biw=1536&bih=695&dpr=1.25" style="color:white">Notícias Recentes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section style="margin-bottom: 20px; padding: 15px">
+            <!-- Título da página -->         
+            <h2>Afinal, o que é a dengue?</h2>
+            <img src="./assets/imagens/mosquito.jpg" alt="foto do mosquito aedes-egypti" width="600px" height="400px">
+            <p>
+                A dengue é uma doença viral transmitida pela picada do mosquito Aedes aegypti, que é comum em regiões tropicais, como por exemplo, o Brasil. 
+                Esse mosquito se desenvolve em locais com água parada e costuma picar durante o dia. A dengue faz parte de um grupo de doenças 
+                chamadas arboviroses, que são causadas por vírus transmitidos por insetos. No caso da dengue, o vírus entra no corpo humano quando o mosquito pica a pessoa.
+            </p>
+            <p>
+                Existem quatro tipos diferentes do vírus da dengue: <strong>DENV-1, DENV-2, DENV-3 e DENV-4</strong>. Isso significa que uma pessoa pode pegar dengue mais de uma vez ao longo 
+                da vida, com sintomas mais graves em infecções repetidas.
+            </p>
+
+        </section>
+
+        <section style="margin-bottom: 20px; padding: 15px">
+            <!-- Título da página -->
+            <h2>Seus Sintomas</h2>
+            <img src="./assets/imagens/sintomas.jpg" alt="figuras de sintomas e alertas da dengue" width="600px" height="600px">
+            <p>
+                Os sintomas da dengue podem variar de leves a graves e geralmente aparecem de quatro a 10 dias após a picada do mosquito infectado. 
+                A doença pode ser dividida em duas formas principais: dengue clássica e dengue hemorrágica.
+            </p>
+            <article style="padding-bottom: 10px; padding-top: 10px; margin-bottom: 30px; border-radius: 10px;">
+                <h3>Dengue Clássica</h3>
+                <ul>
+                    <li>Febre de 39°C a 40°C de início repentino;</li>
+                    <li>Dor de cabeça intensa;</li>
+                    <li>Sensação de fraqueza ou exaustão;</li>
+                    <li>Dores musculares e(ou) atrás dos olhos;</li>
+                    <li>Náuseas e vômitos;</li>
+                    <li>Manchas vermelhas no corpo</li>
+                </ul>
+            </article>
+            <article style="padding-bottom: 10px; padding-top: 10px; margin-bottom: 30px; border-radius: 10px;">
+                <h3>Dengue Hemorrágica</h3>
+                <ul>
+                    <li>Dor abdominal intensa;</li>
+                    <li>Vômitos frequentes (e até com sangue);</li>
+                    <li>Tontura ou sensação de desmaio;</li>
+                    <li>Dificuldade de respirar;</li>
+                    <li>Cansaço e(ou) irritabilidade;</li>
+                    <li>Sangramento no nariz, gengivas e fezes</li>
+                </ul>
+            </article>
+        </section>
+
+        <section style="margin-bottom: 20px; padding: 15px">
+            <!-- Título da página -->
+            <h2>Diagnóstico</h2>
+            <img src="./assets/imagens/diagnostico.jpg" alt="imagem de amostra de sangue usado para teste de covid" width="600px" height="400px">
+            <p>
+                A dengue é causada por um vírus que possui quatro tipos diferentes, chamados de 
+                DEN-1, DEN-2, DEN-3 e DEN-4. Todos esses tipos podem causar a doença e uma pessoa pode ser infectada mais de uma vez ao longo da vida, com diferentes sorotipos.
+            </p>
+            <p>
+                O principal transmissor da dengue é o mosquito Aedes aegypti. Ele se infecta ao picar uma pessoa que já está com o vírus no sangue. Depois disso, o mosquito 
+                pode transmitir o vírus para outras pessoas ao picá-las.
+            </p>
+        </section>
+
+        <section style="margin-bottom: 20px; padding: 15px">
+            <!-- Título da página -->
+            <h2>Métodos de Prevenção</h2>
+            <img src="./assets/imagens/prevenção.jpg" alt="mão descartando água parada" width="600px" height="400px">
+            <article>
+                <h3>Ações de Controle de Prevenção:</h3>
+                <ul>
+                    <li>Vacina da Dengue</li>
+                    <li>Uso de telas nas janelas e repelentes em áreas de transmissão;</li>
+                    <li>Remoção de recipientes que podem ser possíveis focos de criadouros de mosquitos;</li>
+                    <li>Vedação dos reservatórios e caixas de água;</li>
+                    <li>Desobstrução de calhas, lajes e ralos;</li>
+                    <li>Participação na fiscalização das ações de prevenção e controle da dengue executadas pelo Sistema Único de Saúde (SUS).</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+    <footer style="display: flex; justify-content: center; padding: 20px; background-color: #8C271E; border-radius: 10px; color: white;">
+        <aside>
+            <p><strong>Fonte: Ministério da Saúde - Governo Federal do Brasil</strong></p>
+        </aside>
+    </footer>
+</body>
+</html>
